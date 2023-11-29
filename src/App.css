@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('image/imagem1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ 
+}
+ 
+.foto {
+  height: 200px;
+  border-radius: 10px;
+}
+.app{
+  background-color: rgb(182, 87, 182);
+  padding: 10px;
+  width: 700px;
+  height: 300px;
+  margin: 0auto;
+  margin-top: 40px;
+  border-radius: 16px;
+  box-shadow: rgba(229, 4, 4, 0.35);
+  margin-left: 40px;
+  display: flex;
+ 
+ 
+}
+.tarefa{
+  background-color: purple;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+ 
+}
+ 
+.bt_remover{
+  background: red;
+  color: #e2e2e2;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+}
+.cadastrar{
+  display: flex;
+  margin-left: 10px;
+  padding: 8px;
+}
+ 
+.cadastrar input{
+  width: 500px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 4px;
+  margin: 4px;
+}
+.cadastrar2{
+  background-color: rgb(190, 78, 227);
+  align-items: center;
+  height: 120px;
+  border-radius: 10px;
+ 
+ 
+}
+.filtrar{
+  background-color: #8f7070;
+  align-items: center;
+}
+.filtrar .conteudo select{
+  width: 50%;
+  margin-right: 8px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #8f7070;
+  padding: 4px;
+}
+.filtrar .conteudo button{
+  background-color: rgb(0, 10, 25);
+  color: #fff;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.filtrar .conteudo button:haver{
+  background: rgb(185, 226, 236);
+  color:rgb(6,63,109);
+}
+.cabecalho{
+  background-color: rgb(233, 163, 243);
+  border-radius: 8px;
+  justify-items: center;
+  border-radius: 10px;
+  width: 1000-px;
+  height: 95px;
+  padding-top: 50px;
+}
+.informacoes {
+  background-color: rgb(237, 174, 195);
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+ 
+
+}
+
+.filtro{
+  margin-left: 50px;
+  width: 350px;
+  height: 50px;
+}
+.listagem{
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.rodape{
+  background-color: rgb(182, 87, 182);
+  height: 70px;
+  margin-top: 20px;
+}
